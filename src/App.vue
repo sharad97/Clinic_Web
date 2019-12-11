@@ -113,11 +113,6 @@
         sidebar: false,
         menuItems: [
           {
-            action: 'fa-briefcase',
-            title: 'Portfolio',
-            path: '/Portfolio'
-          },
-          {
             action: 'fa fa-keyboard-o',
             title: 'Blog',
             path: '/Blog'
