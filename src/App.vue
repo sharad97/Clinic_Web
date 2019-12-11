@@ -89,16 +89,16 @@
 
 <style lang="scss">
 @import './sass/app';
-  
+
   .text{
     color: #1976d2;
     font-size: 16px;
   }
-  
+
   .text1{
     font-size: 16px;
   }
-  
+
 </style>
 
 <style>
@@ -123,14 +123,9 @@
             path: '/Blog'
           },
           {
-            action: 'fa-linkedin-square',
-            title: 'LinkedIn',
-            link: 'https://www.linkedin.com/in/sharadshrestha1/'
-          },
-          {
-            action: 'fa-github-square',
-            title: 'GitHub',
-            link: 'https://github.com/sharad97'
+            action: 'fa-facebook-square',
+            title: 'Facebook',
+            link: 'https://www.facebook.com/Tejratna384/'
           }
         ]
       }

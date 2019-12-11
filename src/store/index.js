@@ -7,7 +7,7 @@ const debug = process.env.NODE_ENV !== 'production'
 
 export default new Vuex.Store({
   state: {
-    appTitle: 'About Me'
+    appTitle: 'Home'
   },
   mutations: {},
   actions: {},
