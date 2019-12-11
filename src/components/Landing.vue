@@ -33,7 +33,6 @@ body {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-  height: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -68,6 +67,9 @@ body {
 <div class="row">
   <div class="column">
     <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/clinic_1.jpg" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/clinic_2.jpg" style="width:100%">
   </div>
   <div class="column">
   <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/clinic_3.jpg" style="width:100%">
