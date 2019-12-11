@@ -7,16 +7,16 @@
     <h2 class="tel">+1(707)-529-0738</h2>
     <a class="web" href="https://sharadportfolio.netlify.com">https://sharadportfolio.netlify.com</a>
   </div>
-
+  
   <div class="edu">
     <h1 class="school">Education:</h1>
     <br>
     <h2 class="ri">{{ Education }}</h2>
     <h2>Bachelor's Degree in Computer Science</h2>
-  </div>
-
-  <div class="exp" ><h1 class="exper">Experience:</h1>
-
+  </div>  
+  
+  <div class="exp" ><h1 class="exper">Experience:</h1> 
+    
     <br>
 
     <div class="exp1">
@@ -27,7 +27,7 @@
           <h2 class="location">Sunnyvale, CA</h2>
           <h2 class="lenght">February 2018 – Current (1 Year 8 months)</h2>
           <br>
-          <h3 class="project_desc">Worked closely with manager, test leads, testers, business analyst, and developer to ensure no bug exists in Apple's website and quality remains same throughout different browsers and devices. Most projects were focused on the main events of Apple.
+          <h3 class="project_desc">Worked closely with manager, test leads, testers, business analyst, and developer to ensure no bug exists in Apple's website and quality remains same throughout different browsers and devices. Most projects were focused on the main events of Apple. 
           </h3>
           <br>
           <h3 class="work_desc"></h3>
@@ -36,23 +36,23 @@
           <dd>- Worked with test leads to understand the requirements for a test environment setup.
           </dd>
           <dd>- Participated in weekly project status meeting and updated the testing Progress.
-          </dd>
+          </dd> 
           <dd>- Verified requirements coverage by conducting walk through meetings of Test plan and scenarios with business analysts, project manager and test leads.
           </dd>
           <dd>- Assisted test leads with creating and adding new test cases in existing pools of test cases.
           </dd>
           <dd>- Performed regression, smoke, functional, black box, white box, gray box, positive, negative, sanity, API and A/B tests manually and using automation tools such as Selenium grid.
           </dd>
-          <dd>- Performed cross browser testing on PC, Mac, and different devices including iPhone, iPad, iPod touch, iPad, and certified android devices to ensure the applications’ compatibility against different environments.
+          <dd>- Performed cross browser testing on PC, Mac, and different devices including iPhone, iPad, iPod touch, iPad, and certified android devices to ensure the applications’ compatibility against different environments. 
           </dd>
           <dd>- Tested Analytics to see if it tracks traffic and output information correctly.
           </dd>
         </ul>
       </ul>
     </div>
-
+    
     <br>
-
+    
     <div class="exp2">
       <ul>
         <li class="title">Software Development Engineer in Test</li>
@@ -67,7 +67,7 @@
           <dd>- Worked throughout Software Development Life Cycle using Agile (Scrum) model.
           </dd>
           <dd>- Assisted in creating Test Plan, Test Scenarios/ Test Cases, and Execution of Test Cases.
-          </dd>
+          </dd> 
           <dd>- Write SQL queries.
           </dd>
           <dd>- Filled effective Defect Reports.
@@ -75,9 +75,9 @@
         </ul>
       </ul>
     </div>
-
+    
     <br>
-
+    
     <div class="exp3">
       <ul>
         <li class="title">Software Engineer Intern</li>
@@ -100,9 +100,9 @@
         </ul>
       </ul>
     </div>
-
+    
     <br>
-
+    
     <div class="exp4">
       <ul>
         <li class="title">Software Engineer Intern</li>
@@ -121,7 +121,7 @@
     </div>
     <br>
   </div>
-  <div class="skills"><h1 class="skill">Skills:</h1>
+  <div class="skills"><h1 class="skill">Skills:</h1> 
     <div id="chart" class="skills_chart"></div>
   </div>
 </body>
@@ -131,7 +131,7 @@
     ul  {
     list-style: square inside;
 }
-
+  
   .self {
     padding-top: 0px;
 	padding-left:11px;
@@ -142,7 +142,7 @@
 	float:left;
     font-size: 20px;
     font-weight: bold;
-
+	
 }
   .edu {
 	padding-left:11px;
@@ -151,7 +151,7 @@
 	margin-left:50px;
     margin-right:50px;
 	float:left;
-
+	
 }
   .exp {
 	padding-left:11px;
@@ -160,7 +160,7 @@
 	margin-left:50px;
     margin-right:50px;
 	float:left;
-
+	
 }
     .skill {
 	padding-left:11px;
@@ -168,7 +168,7 @@
 	margin-left:50px;
     margin-right:50px;
 	float:left;
-
+	
 }
   .skills_chart{
     padding-left:11px;
@@ -176,22 +176,24 @@
 	padding-bottom:36px;
 	margin-left:50px;
     margin-right:50px;
-
+    
   }
+
   h1{
     font-size: 20px;
     text-decoration: underline;
     font-weight: bold;
-
+    
   }
    h2{
     font-size: 16px;
-    font-style: oblique;
+    font-style: oblique; 
   }
   .web{
     font-weight: normal;
     font-size:16px;
   }
+
 </style>
 
 <style>
@@ -199,23 +201,29 @@
     stroke: #fff;
     shape-rendering: crispEdges;
 }
+
 .bar rect.background {
     fill: #eee;
 }
+
 .bar rect.percent {
     fill: #74c476;
 }
+
 .bar:hover rect.percent {
     fill: #a1d99b;
 }
+
 .bar text {
     font-size: 12px;
     fill: #333;
 }
+
 .axis line {
     stroke: #ccc;
     stroke-width: 1;
 }
+
 line.median {
     stroke: #777;
     stroke-width: 1;
@@ -227,10 +235,10 @@ line.median {
     font-weight: bold;
     border-radius: 5px;
     padding: 3px 3px 3px 3px;
-	position:absolute;
-    background: SeaGreen;
+	position:absolute;			
+    background: SeaGreen;	
   	border: solid black 2px;
-    border-radius: 8px;
+    border-radius: 8px;			
     pointer-events: none;
     margin-left: 15px;
     color:white;
@@ -239,6 +247,7 @@ line.median {
 
 <script>
 import * as d3 from 'd3';
+
 export default {
   name: 'Landing',
   data() {
@@ -256,6 +265,7 @@ export default {
         .attr('width', width)
         .attr('height', height)
         .append('g');
+
     var defs = chart1.append('defs');
     var size = 150;
     var circles = [1];
@@ -263,9 +273,11 @@ export default {
     //  console.log(d3.schemeCategory10);
     var imgId = 'img_';
     var imgUrl = 'url(#img_)';
+
     var tooltip = d3.select('body').append('div')
     .attr('class', 'tooltip')
     .style('opacity', 0);
+
     defs.selectAll('pattern')
       .data(circles)
       .enter()
@@ -280,6 +292,7 @@ export default {
       .attr('width', size)
       .attr('height', size)
       .attr('xlink:href', 'https://s3-us-west-1.amazonaws.com/12webimage/webimage/profpic.jpg');
+
     chart1.selectAll('circle')
       .data(circles)
       .enter()
@@ -305,16 +318,21 @@ export default {
           .duration(500)
           .style('opacity', 0);
       });
+
     var width1 = parseInt(d3.select('#chart').style('width'), 10);
     width1 = width1 - margin.left - margin.right;
+
     var barHeight = 20;
     var spacing = 3;
     var percent = d3.format('%');
+
     // scales and axes
     var x = d3.scale.linear()
         .range([0, width1])
         .domain([0, 10]); // hard-coding this because I know the data
+
     var y = d3.scale.ordinal();
+
     var xAxis = d3.svg.axis()
         .scale(x)
         .ticks(4);
@@ -323,6 +341,7 @@ export default {
         .style('width', (width1 + margin.left + margin.right) + 'px')
         .append('g')
         .attr('transform', 'translate(' + [margin.left, margin.top] + ')');
+
     var data = [
       {
         'Name': 'd3.js',
@@ -365,34 +384,43 @@ export default {
         'Total': 9
       }
     ];
+
     data.forEach(function(d, i) {
       d.Name = d.Name;
       d.percent = d.Total;
       return d;
     });
+
     y.domain(d3.range(data.length)).rangeBands([0, data.length * barHeight]);
+
         // set height based on data
     height = y.rangeExtent()[1];
     d3.select(chart.node().parentNode)
             .style('height', (height + margin.top + margin.bottom) + 'px')
+
         // render the chart
+
         // add top and bottom axes
     chart.append('g')
             .attr('class', 'x axis top')
             .call(xAxis.orient('top'));
+
     chart.append('g')
             .attr('class', 'x axis bottom')
             .attr('transform', 'translate(0,' + height + ')')
             .call(xAxis.orient('bottom'));
+
     var bars = chart.selectAll('.bar')
           .data(data)
           .enter().append('g')
           .attr('class', 'bar')
           .attr('transform', function(d, i) { return 'translate(0,' + y(i) + ')'; });
+
     bars.append('rect')
             .attr('class', 'background')
             .attr('height', y.rangeBand())
             .attr('width', width1);
+
     bars.append('rect')
             .attr('class', 'percent')
             .attr('height', y.rangeBand())
@@ -410,40 +438,52 @@ export default {
                 .duration(500)
                 .style('opacity', 0);
             });
+
     bars.append('text')
             .text(function(d) { return d.Name; })
             .attr('class', 'name')
             .attr('y', y.rangeBand() - 5)
             .attr('x', spacing);
+
         // add median ticks
     var median = d3.median(data, function(d) { return d.percent; });
+
     d3.select('span.median').text(percent(median));
+
     bars.append('line')
             .attr('class', 'median')
             .attr('x1', x(median))
             .attr('x2', x(median))
             .attr('y1', 1)
             .attr('y2', y.rangeBand() - 1);
+
     // resize
     d3.select(window).on('resize', resize);
+
     function resize() {
         // update width
       width1 = parseInt(d3.select('#chart').style('width'), 10);
       width1 = width1 - margin.left - margin.right;
+
         // resize the chart
       x.range([0, width1]);
       d3.select(chart.node().parentNode)
             .style('height', (y.rangeExtent()[1] + margin.top + margin.bottom) + 'px')
             .style('width', (width1 + margin.left + margin.right) + 'px');
+
       chart.selectAll('rect.background')
             .attr('width', width1);
+
       chart.selectAll('rect.percent')
             .attr('width', function(d) { return x(d.percent); });
+
         // update median ticks
       var median = d3.median(chart.selectAll('.bar').data(), function(d) { return d.percent; });
+
       chart.selectAll('line.median')
             .attr('x1', x(median))
             .attr('x2', x(median));
+
         // update axes
       chart.select('.x.axis.top').call(xAxis.orient('top'));
       chart.select('.x.axis.bottom').call(xAxis.orient('bottom'));

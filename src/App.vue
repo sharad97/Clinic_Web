@@ -89,16 +89,16 @@
 
 <style lang="scss">
 @import './sass/app';
-
+  
   .text{
     color: #1976d2;
     font-size: 16px;
   }
-
+  
   .text1{
     font-size: 16px;
   }
-
+  
 </style>
 
 <style>
