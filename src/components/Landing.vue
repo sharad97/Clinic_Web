@@ -33,6 +33,7 @@ body {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  height: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
