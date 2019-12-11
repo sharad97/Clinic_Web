@@ -59,8 +59,7 @@ body {
 
 <!-- Header -->
 <div class="header">
-  <h1>Responsive Image Grid</h1>
-  <p>Resize the browser window to see the responsive effect.</p>
+  <h1>Tejratna Eye and Ear Care Centre</h1>
 </div>
 
 <!-- Photo Grid -->
