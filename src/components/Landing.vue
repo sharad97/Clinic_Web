@@ -1,4 +1,3 @@
-<template>
 <style>
 * {
   box-sizing: border-box;
@@ -54,6 +53,8 @@ body {
   }
 }
 </style>
+
+<template>
 <body>
 
 <!-- Header -->
