@@ -121,6 +121,16 @@
             action: 'fa fa-keyboard-o',
             title: 'Blog',
             path: '/Blog'
+          },
+          {
+            action: 'fa-linkedin-square',
+            title: 'LinkedIn',
+            link: 'https://www.linkedin.com/in/sharadshrestha1/'
+          },
+          {
+            action: 'fa-github-square',
+            title: 'GitHub',
+            link: 'https://github.com/sharad97'
           }
         ]
       }
