@@ -2,7 +2,6 @@
 
 .google-maps {
     position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
     height: 0;
     overflow: hidden;
 }
