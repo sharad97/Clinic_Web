@@ -149,7 +149,7 @@ text-align: center;
     <tr><th>Friday:</th><td>9am - 5pm</td></tr>
     <tr><th>Saturday:</th><td>Closed</td></tr>
     </table>
-    <div class="call">
+    </div>
   </div>
 
   <div class="column_2">
