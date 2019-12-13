@@ -133,7 +133,7 @@ text-align: center;
     <div class="call">
       <p>MAKE AN APPOINTMENT</p>
       <p class="fa fa-phone">+977-985-2060177</p>
-      <p>Hours</p>
+      <p class="fa fa-clock-o">Hours</p>
     </div>
     <table>
     <tr><th>Sunday:</th><td>9am - 5pm</td></tr>
