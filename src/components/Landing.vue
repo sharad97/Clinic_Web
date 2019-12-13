@@ -103,6 +103,13 @@ table.center {
     margin-left:-15px;
   }
 
+.map-container{
+overflow:hidden;
+padding-bottom:82%;
+position:relative;
+height:0;
+}
+
 .call {
 text-align: center;
 }
@@ -141,7 +148,9 @@ text-align: center;
   </div>
 
   <div class="column_2">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
+    <div class="map-container">
+    <iframe width="100%" height="120%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
+    </div>
   </div>
 </div>
 
