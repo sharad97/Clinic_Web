@@ -1,13 +1,5 @@
 <style>
 
-.google-maps {
-    position: relative;
-    overflow: hidden;
-}
-.google-maps iframe {
-    position: absolute;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -69,20 +61,13 @@ th {
 table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
 
 
-.phone {
-  position: relative;
-}
-
-.hours {
-  position: relative;
-}
-
 .map-container-5{
 overflow:hidden;
 padding-bottom:56.25%;
 position:relative;
 height:0;
 }
+
 .map-container-5 iframe{
 left:0;
 top:0;
