@@ -84,7 +84,7 @@ th {
 <div>
   <div>
   <p>MAKE AN APPOINTMENT</p>
-  <p>+977-985-2060177</p>
+  <p class="fa fa-phone">+977-985-2060177</p>
   </div>
   <div>
     <table>
