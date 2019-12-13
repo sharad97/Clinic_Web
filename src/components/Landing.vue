@@ -2,7 +2,7 @@
 
 .google-maps {
     position: relative;
-    padding-bottom: 50%; // This is the aspect ratio
+    padding-bottom: 75%; // This is the aspect ratio
     height: 0;
     overflow: hidden;
 }
@@ -11,7 +11,7 @@
     top: 0;
     left: 0;
     width: 100% !important;
-    height: 50% !important;
+    height: 100% !important;
 }
 
 * {
@@ -110,7 +110,7 @@ table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
       </table>
   </div>
   <div class="google-maps">
-    <iframe width="400" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
+    <iframe width="200" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
   </div>
 </div>
 
