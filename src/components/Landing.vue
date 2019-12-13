@@ -137,10 +137,7 @@ text-align: center;
     <div class="call">
       <p>MAKE AN APPOINTMENT</p>
       <p class="fa fa-phone"> +977-985-2060177</p>
-    </div>
-    <div class="hours">
     <p class="fa fa-clock-o"> Hours</p>
-    </div>
     <table>
     <tr><th>Sunday:</th><td>9am - 5pm</td></tr>
     <tr><th>Monday:</th><td>9am - 5pm</td></tr>
@@ -150,6 +147,7 @@ text-align: center;
     <tr><th>Friday:</th><td>9am - 5pm</td></tr>
     <tr><th>Saturday:</th><td>Closed</td></tr>
     </table>
+    </div>
   </div>
 
   <div class="column_2">
