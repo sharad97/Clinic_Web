@@ -150,7 +150,7 @@ text-align: center;
     <div class="hours">
     <p class="fa fa-clock-o"> Hours</p>
     </div>
-    <table>
+    <table class="center">
     <tr><th>Sunday:</th><td>9am - 5pm</td></tr>
     <tr><th>Monday:</th><td>9am - 5pm</td></tr>
     <tr><th>Tuesday:</th><td>9am - 5pm</td></tr>
