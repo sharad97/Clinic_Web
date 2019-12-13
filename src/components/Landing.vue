@@ -54,6 +54,46 @@ body {
   }
 }
 
+
+
+.row_2 {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column_2 {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+}
+
+.column_2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column_2 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column_2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 th {
   text-align: right;
 }
@@ -75,6 +115,10 @@ height:100%;
 width:100%;
 position:absolute;
 }
+.call {
+text-align: center;
+}
+
 </style>
 <template>
 <body>
@@ -83,11 +127,14 @@ position:absolute;
 <div class="header">
   <h1>Tejratna Eye and Ear Care Centre</h1>
 </div>
-<div class="row">
-  <div class="column">
-  <p>MAKE AN APPOINTMENT</p>
-  <p class="fa fa-phone">+977-985-2060177</p>
-  <table>
+
+<div class="row_2">
+  <div class="column_2">
+    <div class="call">
+      <p>MAKE AN APPOINTMENT</p>
+      <p class="fa fa-phone">+977-985-2060177</p>
+    </div>
+    <table>
     <tr><th>Hours</th><td></td></tr>
     <tr><th>Sunday:</th><td>9am - 5pm</td></tr>
     <tr><th>Monday:</th><td>9am - 5pm</td></tr>
@@ -99,10 +146,10 @@ position:absolute;
     </table>
   </div>
 
-  <div class="column">
-  <div class="map-container">
-    <iframe width="200" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
-  </div>
+  <div class="column_2">
+    <div class="map-container">
+      <iframe width="200" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
+    </div>
   </div>
 </div>
 
