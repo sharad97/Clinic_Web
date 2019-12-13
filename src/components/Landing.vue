@@ -1,4 +1,19 @@
 <style>
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -52,6 +67,8 @@ body {
     max-width: 100%;
   }
 }
+
+
 </style>
 
 <template>
@@ -61,7 +78,7 @@ body {
 <div class="header">
   <h1>Tejratna Eye and Ear Care Centre</h1>
 </div>
-<div>
+<div class="google-maps">
 <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
 </div>
 
