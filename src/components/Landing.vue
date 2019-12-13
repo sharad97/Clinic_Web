@@ -61,14 +61,14 @@ th {
 table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
 
 
-.map-container-5{
+.map-container{
 overflow:hidden;
 padding-bottom:56.25%;
 position:relative;
 height:0;
 }
 
-.map-container-5 iframe{
+.map-container iframe{
 left:0;
 top:0;
 height:100%;
@@ -83,74 +83,29 @@ position:absolute;
 <div class="header">
   <h1>Tejratna Eye and Ear Care Centre</h1>
 </div>
-<div>
-<!--Grid row-->
 <div class="row">
-
-  <!--Grid column-->
-  <div class="col-md-6 mb-4">
-
-    <!--Card-->
-    <div class="card card-cascade narrower">
-
-      <!--Card image-->
-      <div class="view view-cascade gradient-card-header blue-gradient">
-        <h5 class="mb-0">Regular map</h5>
-      </div>
-      <!--/Card image-->
-
-      <!--Card content-->
-      <div class="card-body card-body-cascade text-center">
-
-        <!--Google map-->
-        <div id="map-container-google-8" class="z-depth-1-half map-container-5" style="height: 300px">
-        <p>MAKE AN APPOINTMENT</p>
-        <p class="fa fa-phone">+977-985-2060177</p>
-        </div>
-
-      </div>
-      <!--/.Card content-->
-
-    </div>
-    <!--/.Card-->
-
+  <div class="column">
+  <p>MAKE AN APPOINTMENT</p>
+  <p class="fa fa-phone">+977-985-2060177</p>
+  <table>
+    <tr><th>Hours</th><td></td></tr>
+    <tr><th>Sunday:</th><td>9am - 5pm</td></tr>
+    <tr><th>Monday:</th><td>9am - 5pm</td></tr>
+    <tr><th>Tuesday:</th><td>9am - 5pm</td></tr>
+    <tr><th>Wednesday:</th><td>9am - 5pm</td></tr>
+    <tr><th>Thursday:</th><td>9am - 5pm</td></tr>
+    <tr><th>Friday:</th><td>9am - 5pm</td></tr>
+    <tr><th>Saturday:</th><td>Closed</td></tr>
+    </table>
   </div>
-  <!--Grid column-->
 
-  <!--Grid column-->
-  <div class="col-md-6 mb-4">
-
-    <!--Card-->
-    <div class="card card-cascade narrower">
-
-      <!--Card image-->
-      <div class="view view-cascade gradient-card-header peach-gradient">
-        <h5 class="mb-0">Custom map</h5>
-      </div>
-      <!--/Card image-->
-
-      <!--Card content-->
-      <div class="card-body card-body-cascade text-center">
-
-        <!--Google map-->
-        <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
-          <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" frameborder="0"
-            style="border:0" allowfullscreen></iframe>
-        </div>
-
-
-      </div>
-      <!--/.Card content-->
-
-    </div>
-    <!--/.Card-->
-
+  <div class="column">
+  <div class="map-container">
+    <iframe width="200" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
   </div>
-  <!--Grid column-->
+  </div>
+</div>
 
-</div>
-<!--Grid row-->
-</div>
 
 <!-- Photo Grid -->
 <div class="row">
