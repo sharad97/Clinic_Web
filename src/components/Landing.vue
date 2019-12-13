@@ -105,11 +105,18 @@ table.center {
 
 .map-container{
 overflow:hidden;
-padding-bottom:82%;
+padding-bottom:56.25%;
 position:relative;
 height:0;
 }
 
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
 .call {
 text-align: center;
 }
@@ -129,6 +136,7 @@ text-align: center;
 
 <div class="row_2">
   <div class="column_2">
+  <div class="map-container">
     <div class="call">
       <p><i class="fa fa-calendar" style="font-size:20px;color:green"></i> MAKE AN APPOINTMENT</p>
       <p><i class="fa fa-phone" style="font-size:20px;color:green"></i> +977-985-2060177</p>
@@ -146,10 +154,11 @@ text-align: center;
     <tr><th>Saturday:</th><td>Closed</td></tr>
     </table>
   </div>
+  </div>
 
   <div class="column_2">
     <div class="map-container">
-    <iframe width="100%" height="120%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
+      <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
     </div>
   </div>
 </div>
