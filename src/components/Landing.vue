@@ -68,6 +68,9 @@ body {
   }
 }
 
+th {
+  text-align: right;
+}
 
 </style>
 
@@ -78,8 +81,22 @@ body {
 <div class="header">
   <h1>Tejratna Eye and Ear Care Centre</h1>
 </div>
-<div class="google-maps">
-<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
+<div>
+  <div>
+    <p>Hour:<p>
+    <table>
+      <tr><th>Sunday</th><td>9am - 5pm</td></tr>
+      <tr><th>Monday</th><td>9am - 5pm</td></tr>
+      <tr><th>Tuesday</th><td>9am - 5pm</td></tr>
+      <tr><th>Wednesday</th><td>9am - 5pm</td></tr>
+      <tr><th>Thursday</th><td>9am - 5pm</td></tr>
+      <tr><th>Friday</th><td>9am - 5pm</td></tr>
+      <tr><th>Saturday</th><td>Closed</td></tr>
+      </table>
+  </div>
+  <div class="google-maps">
+    <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
+  </div>
 </div>
 
 <!-- Photo Grid -->
