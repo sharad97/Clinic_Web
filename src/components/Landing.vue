@@ -54,8 +54,6 @@ body {
   }
 }
 
-
-
 .row_2 {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -158,7 +156,7 @@ text-align: center;
 
   <div class="column_2">
     <div class="map-container">
-      <iframe width="200" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
+      <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzSfxBx7H6DkR5PJeX2cmXPA&key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg" allowfullscreen></iframe>
     </div>
   </div>
 </div>
