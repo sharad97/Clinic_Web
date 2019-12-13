@@ -139,11 +139,11 @@ text-align: center;
 <div class="row_2">
   <div class="column_2">
     <div class="call">
-      <i class="fa fa-calendar" style="font-size:20px;color:green"></i><p> MAKE AN APPOINTMENT</p>
-      <i class="fa fa-phone" style="font-size:20px;color:green"></i><p> +977-985-2060177</p>
+      <p><i class="fa fa-calendar" style="font-size:20px;color:green"></i> MAKE AN APPOINTMENT</p>
+      <p><i class="fa fa-phone" style="font-size:20px;color:green"></i> +977-985-2060177</p>
     </div>
     <div class="hours">
-    <i class="fa fa-clock-o" style="font-size:20px;color:green"></i><p> Hours</p>
+    <p><i class="fa fa-clock-o" style="font-size:20px;color:green"></i> Hours</p>
     </div>
     <table class="center">
     <tr><th>Sunday:</th><td>9am - 5pm</td></tr>
