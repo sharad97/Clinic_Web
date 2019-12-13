@@ -105,7 +105,6 @@ table.center {
 
 .map-container{
 overflow:hidden;
-padding-bottom:56.25%;
 position:relative;
 height:0;
 }
