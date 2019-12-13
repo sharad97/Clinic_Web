@@ -54,12 +54,6 @@ body {
   }
 }
 
-th {
-  text-align: right;
-}
-
-table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
-
 
 .map-container-5{
 overflow:hidden;
