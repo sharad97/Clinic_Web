@@ -54,6 +54,12 @@ body {
   }
 }
 
+th {
+  text-align: right;
+}
+
+table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
+
 
 .map-container-5{
 overflow:hidden;
@@ -99,6 +105,10 @@ position:absolute;
 
         <!--Google map-->
         <div id="map-container-google-8" class="z-depth-1-half map-container-5" style="height: 300px">
+        <p>MAKE AN APPOINTMENT</p>
+        <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+        <p>+977-985-2060177</p>
+        
         <table>
           <tr><th>Hours</th><td></td></tr>
           <tr><th>Sunday:</th><td>9am - 5pm</td></tr>
