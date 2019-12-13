@@ -105,19 +105,7 @@ position:absolute;
         <!--Google map-->
         <div id="map-container-google-8" class="z-depth-1-half map-container-5" style="height: 300px">
         <p>MAKE AN APPOINTMENT</p>
-        <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
-        <p>+977-985-2060177</p>
-
-        <table>
-          <tr><th>Hours</th><td></td></tr>
-          <tr><th>Sunday:</th><td>9am - 5pm</td></tr>
-          <tr><th>Monday:</th><td>9am - 5pm</td></tr>
-          <tr><th>Tuesday:</th><td>9am - 5pm</td></tr>
-          <tr><th>Wednesday:</th><td>9am - 5pm</td></tr>
-          <tr><th>Thursday:</th><td>9am - 5pm</td></tr>
-          <tr><th>Friday:</th><td>9am - 5pm</td></tr>
-          <tr><th>Saturday:</th><td>Closed</td></tr>
-          </table>
+        <p class="fa fa-phone">+977-985-2060177</p>
         </div>
 
       </div>
