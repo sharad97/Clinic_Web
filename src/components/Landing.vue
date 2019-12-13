@@ -103,7 +103,7 @@ table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
 
 table.center {
     margin-left:40px;
-    margin-right:auto;
+    margin-right:60px;
   }
 
 .map-container{
