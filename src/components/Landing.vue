@@ -72,6 +72,17 @@ th {
   text-align: right;
 }
 
+table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
+
+
+.phone {
+  position: relative;
+}
+
+.hours {
+  position: relative;
+}
+
 </style>
 
 <template>
@@ -82,12 +93,12 @@ th {
   <h1>Tejratna Eye and Ear Care Centre</h1>
 </div>
 <div>
-  <div>
+  <div class="phone">
   <p>MAKE AN APPOINTMENT</p>
   <p class="fa fa-phone">+977-985-2060177</p>
   </div>
-  <div>
-    <table cellspacing="10">
+  <div class="hours">
+    <table>
       <tr><th>Hours</th><td></td></tr>
       <tr><th>Sunday:</th><td>9am - 5pm</td></tr>
       <tr><th>Monday:</th><td>9am - 5pm</td></tr>
