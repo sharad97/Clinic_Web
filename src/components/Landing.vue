@@ -98,13 +98,18 @@ th {
   text-align: right;
 }
 
+td {
+text-align: left;
+
+}
+
 table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
 
 table.center {
     margin-left:auto;
     margin-right:auto;
   }
-  
+
 .map-container{
 overflow:hidden;
 padding-bottom:56.25%;
