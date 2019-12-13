@@ -83,15 +83,19 @@ th {
 </div>
 <div>
   <div>
-    <p>Hour:<p>
+  <p>MAKE AN APPOINTMENT</p>
+  <p>+977-985-2060177</p>
+  </div>
+  <div>
     <table>
-      <tr><th>Sunday</th><td>9am - 5pm</td></tr>
-      <tr><th>Monday</th><td>9am - 5pm</td></tr>
-      <tr><th>Tuesday</th><td>9am - 5pm</td></tr>
-      <tr><th>Wednesday</th><td>9am - 5pm</td></tr>
-      <tr><th>Thursday</th><td>9am - 5pm</td></tr>
-      <tr><th>Friday</th><td>9am - 5pm</td></tr>
-      <tr><th>Saturday</th><td>Closed</td></tr>
+      <tr><th>Hours</th><td></td></tr>
+      <tr><th>Sunday:</th><td> 9am - 5pm</td></tr>
+      <tr><th>Monday:</th><td> 9am - 5pm</td></tr>
+      <tr><th>Tuesday:</th><td> 9am - 5pm</td></tr>
+      <tr><th>Wednesday:</th><td> 9am - 5pm</td></tr>
+      <tr><th>Thursday:</th><td> 9am - 5pm</td></tr>
+      <tr><th>Friday:</th><td> 9am - 5pm</td></tr>
+      <tr><th>Saturday:</th><td> Closed</td></tr>
       </table>
   </div>
   <div class="google-maps">
