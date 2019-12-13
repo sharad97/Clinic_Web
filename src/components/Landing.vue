@@ -102,8 +102,7 @@ th {
 table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
 
 table.center {
-    margin-left:50px;
-    margin-right:50px;
+    margin-left:60px;
   }
 
 .map-container{
