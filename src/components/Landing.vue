@@ -115,6 +115,7 @@ left:0;
 top:0;
 height:100%;
 width:100%;
+min-height:82%;
 position:absolute;
 }
 .call {
@@ -136,7 +137,6 @@ text-align: center;
 
 <div class="row_2">
   <div class="column_2">
-  <div class="map-container">
     <div class="call">
       <p><i class="fa fa-calendar" style="font-size:20px;color:green"></i> MAKE AN APPOINTMENT</p>
       <p><i class="fa fa-phone" style="font-size:20px;color:green"></i> +977-985-2060177</p>
@@ -153,7 +153,6 @@ text-align: center;
     <tr><th>Friday:</th><td>9am - 5pm</td></tr>
     <tr><th>Saturday:</th><td>Closed</td></tr>
     </table>
-  </div>
   </div>
 
   <div class="column_2">
