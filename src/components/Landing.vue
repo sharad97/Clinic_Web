@@ -11,14 +11,14 @@ export default {
         console.log("map: ", google.maps)
         this.lat = 27.37834;
         this.lng = 87.206579;
-        this.uluru = {lat:this.lat, lng: this.lng};
-            this.map = new google.maps.Map(document.getElementById('myMap'), {
+        this.uluru = {lat:lat, lng:lng};
+        this.map = new google.maps.Map(document.getElementById('myMap'), {
             center: uluru,
             scrollwheel: false,
             zoom: 20
             });
 
-            this.marker = new google.maps.Marker({position: uluru, map: myMap});
+        this.marker = new google.maps.Marker({position: uluru, map: map});
 
 
   }
