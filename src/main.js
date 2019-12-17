@@ -11,6 +11,7 @@ import VueYouTubeEmbed from 'vue-youtube-embed'
 import Vuetify from 'vuetify'
 import('../node_modules/vuetify/dist/vuetify.min.css')
 
+
 Vue.use(VueYouTubeEmbed)
 Vue.use(Vuetify)
 Vue.use(require('vue-script2'))
@@ -36,6 +37,5 @@ new Vue({
   store,
   router,
   template: '<App/>',
-  components: { App },
-  render: h => h(App),
+  components: { App }
 }).$mount('#app')

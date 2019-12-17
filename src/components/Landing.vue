@@ -1,5 +1,5 @@
 <script>
-import gmapsInit from './utils/gmaps';
+import gmapsInit from '../utils/gmaps';
 const locations = [
   {
     position: {
@@ -62,7 +62,7 @@ export default {
           marker.addListener(`click`, () => markerClickHandler(marker));
           return marker;
         });
-      
+
     } catch (error) {
       // eslint-disable-next-line no-console
       console.error(error);
