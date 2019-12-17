@@ -47,21 +47,21 @@ function Popup(position, content) {
 
   // Optionally stop clicks, etc., from bubbling up to the map.
   google.maps.OverlayView.preventMapHitsAndGesturesFrom(this.containerDiv);
-}
+},
 // ES5 magic to extend google.maps.OverlayView.
 Popup.prototype = Object.create(google.maps.OverlayView.prototype);
 
 /** Called when the popup is added to the map. */
 Popup.prototype.onAdd = function() {
   this.getPanes().floatPane.appendChild(this.containerDiv);
-};
+},
 
 /** Called when the popup is removed from the map. */
 Popup.prototype.onRemove = function() {
   if (this.containerDiv.parentElement) {
     this.containerDiv.parentElement.removeChild(this.containerDiv);
   }
-};
+},
 
 /** Called each frame when the popup needs to draw itself. */
 Popup.prototype.draw = function() {
@@ -80,7 +80,7 @@ Popup.prototype.draw = function() {
   if (this.containerDiv.style.display !== display) {
     this.containerDiv.style.display = display;
   }
-};
+}
 
 return Popup;
 
