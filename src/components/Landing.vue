@@ -7,7 +7,7 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }},
-  mounted: function() {
+    methods: function(){
   var popup, Popup;
 
         console.log("map: ", google.maps)
@@ -20,27 +20,15 @@ export default {
             });
 
         Popup = createPopupClass();
+
 popup = new Popup(
     new google.maps.LatLng(lat, lng),
     document.getElementById('content'));
 popup.setMap(map);
 }
 
-/**
-* Returns the Popup class.
-*
-* Unfortunately, the Popup class can only be defined after
-* google.maps.OverlayView is defined, when the Maps API is loaded.
-* This function should be called by initMap.
-*/
 function createPopupClass() {
-/**
- * A customized popup on the map.
- * @param {!google.maps.LatLng} position
- * @param {!Element} content The bubble div.
- * @constructor
- * @extends {google.maps.OverlayView}
- */
+
 function Popup(position, content) {
   this.position = position;
 
@@ -97,8 +85,11 @@ return Popup;
 
 
 
-  }
+  },
+  mounted() {
+   function();
 
+}
 }
 </script>
 <style scoped>
