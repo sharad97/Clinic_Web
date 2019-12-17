@@ -84,6 +84,7 @@ new Vue({
       this.definePopupClass();
       this.map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: -33.9, lng: 151.1},
+        scrollwheel: false,
         zoom: 10,
       });
 
@@ -92,8 +93,6 @@ new Vue({
           document.getElementById('content'));
       this.popup.setMap(this.map);
     })
-
-
   }
 })
 
@@ -102,6 +101,11 @@ new Vue({
  * element that contains the map. */
 #map {
   height: 100%;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* The location pointed to by the popup tip. */
