@@ -9,11 +9,18 @@ export default {
     }},
   mounted: function() {
         console.log("map: ", google.maps)
+        this.lat = 27.37834;
+        this.lng = 87.206579;
+        this.uluru = {lat:this.lat, lng: this.lng};
             this.map = new google.maps.Map(document.getElementById('myMap'), {
-            center: {lat:61.180059, lng: -149.822075},
+            center: uluru,
             scrollwheel: false,
-            zoom: 4
-            })
+            zoom: 20
+            });
+
+            this.marker = new google.maps.Marker({position: uluru, map: myMap});
+
+
   }
 
 }
