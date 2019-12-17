@@ -110,17 +110,16 @@ export default {
 
 
 <style>
-* Always set the map height explicitly to define the size of the div
- * element that contains the map. */
 #map {
-  height: 100%;
+  height: 500px;
+  width: 500px;
 }
-
-html, body {
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
   margin: 0;
   padding: 0;
 }
-
 /* The location pointed to by the popup tip. */
 .popup-tip-anchor {
   height: 0;
@@ -164,8 +163,10 @@ html, body {
   font-family: sans-serif;
   overflow-y: auto;
   max-height: 60px;
-  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.5);
 }
+
+
 
 * {
   box-sizing: border-box;
@@ -308,10 +309,11 @@ text-align: center;
   </div>
 
   <div class="column_2">
-  <div id="map"></div>
-  <div id="content">
-    Hello this is me
-  </div>  </div>
+    <div id="map"></div>
+    <div id="content">
+      Hello this is me
+      </div>
+   </div>
 </div>
 
 
