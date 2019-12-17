@@ -1,4 +1,55 @@
+
+<script>
+export default {
+  name: 'google-map',
+  props: ['name'],
+  data: function () {
+    return {
+      mapName: this.name + "-map",
+      markerCoordinates: [{
+        latitude: 51.501527,
+        longitude: -0.1921837
+      }, {
+        latitude: 51.505874,
+        longitude: -0.1838486
+      }, {
+        latitude: 51.4998973,
+        longitude: -0.202432
+      }],
+      map: null,
+      bounds: null,
+      markers: []
+    }
+  },
+  mounted: function () {
+    this.bounds = new google.maps.LatLngBounds();
+    const element = document.getElementById(this.mapName)
+    const mapCentre = this.markerCoordinates[0]
+    const options = {
+      center: new google.maps.LatLng(mapCentre.latitude, mapCentre.longitude)
+    }
+    this.map = new google.maps.Map(element, options);
+    this.markerCoordinates.forEach((coord) => {
+      const position = new google.maps.LatLng(coord.latitude, coord.longitude);
+      const marker = new google.maps.Marker({
+        position,
+        map: this.map
+      });
+    this.markers.push(marker)
+      this.map.fitBounds(this.bounds.extend(position))
+    });
+  }
+};
+</script>
+
+
 <style>
+.google-map {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  background: gray;
+}
 
 * {
   box-sizing: border-box;
@@ -119,30 +170,6 @@ text-align: center;
 </style>
 
 
-<script>
-// Initialize and add the map
-function initMap() {
-// The location of Uluru
-var lat = 27.37834,
-    lon = 87.206579;
-var uluru = {lat: lat, lng: lon};
-// The map, centered at Uluru
-var map = new google.maps.Map(
-    document.getElementById('map'), {zoom: 20, center: uluru});
-// The marker, positioned at Uluru
-var marker = new google.maps.Marker({position: uluru, map: map});
-}
-</script>
-
-  <!--Load the API from the specified URL
-  * The async attribute allows the browser to render the page while the API loads
-  * The key parameter will contain your own API key (which is not needed for this tutorial)
-  * The callback parameter executes the initMap() function
-  -->
-  <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg&callback=initMap">
-  </script>
-
 
 <template>
 <body>
@@ -173,7 +200,7 @@ var marker = new google.maps.Marker({position: uluru, map: map});
   </div>
 
   <div class="column_2">
-    <div id="map"></div>
+  <div class="google-map" :id="mapName"></div>
   </div>
 </div>
 
