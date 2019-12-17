@@ -109,9 +109,8 @@ export default {
 
 <style>
 #map {
-height: 100%;
+height:300px;
 width: 100%;
-
 }
 
 body {
@@ -310,7 +309,7 @@ text-align: center;
   <div class="column_2">
     <div id="map"></div>
     <div id="content">
-      Hello this is me
+      Tejratna Eye and Ear Care Centre
       </div>
    </div>
 </div>
