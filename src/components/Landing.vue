@@ -107,19 +107,16 @@ export default {
 };
 </script>
 
-
-
 <style>
 #map {
-  height: 500px;
-  width: 500px;
+height: 100%;
 }
-/* Optional: Makes the sample page fill the window. */
-html,
+
 body {
   margin: 0;
-  padding: 0;
+  font-family: Arial;
 }
+
 /* The location pointed to by the popup tip. */
 .popup-tip-anchor {
   height: 0;
