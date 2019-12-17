@@ -105,7 +105,7 @@ table.center {
 
 
 #map {
-  height: 100%;
+  height: 400px
 }
 
 .call {
@@ -197,7 +197,8 @@ var map = new google.maps.Map(
 // The marker, positioned at Uluru
 var marker = new google.maps.Marker({position: uluru, map: map});
 }
-  </script>
+</script>
+
   <!--Load the API from the specified URL
   * The async attribute allows the browser to render the page while the API loads
   * The key parameter will contain your own API key (which is not needed for this tutorial)
