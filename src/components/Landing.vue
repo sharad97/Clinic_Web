@@ -97,8 +97,7 @@ new Vue({
   }
 })
 
-<style>
-
+<style scoped>
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
 #map {
@@ -150,6 +149,9 @@ new Vue({
   max-height: 60px;
   box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
 }
+</style>
+
+<style>
 
 * {
   box-sizing: border-box;
