@@ -42,14 +42,17 @@ export default {
 };
 </script>
 
-
-<style>
+<style scoped>
 .google-map {
   width: 800px;
   height: 600px;
   margin: 0 auto;
   background: gray;
 }
+</style>
+
+<style>
+
 
 * {
   box-sizing: border-box;
@@ -154,11 +157,6 @@ table.center {
     margin-left:-15px;
   }
 
-
-#map {
-  height: 400px
-}
-
 .call {
 text-align: center;
 }
@@ -200,7 +198,7 @@ text-align: center;
   </div>
 
   <div class="column_2">
-  <div class="google-map" :id="mapName"></div>
+    <div class="google-map" :id="mapName"></div>
   </div>
 </div>
 
