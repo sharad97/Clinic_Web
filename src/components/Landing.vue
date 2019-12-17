@@ -1,3 +1,4 @@
+<script>
 function initMap() {
   // The location of Uluru
   var lat = 27.37834,
