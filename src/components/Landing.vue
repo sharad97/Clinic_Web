@@ -93,12 +93,12 @@ export default {
     this.$nextTick(() => {
       this.definePopupClass();
       this.map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: -33.9, lng: 151.1 },
-        zoom: 10
+        center: { lat: 27.378349, lng: 87.206579 },
+        zoom: 19
       });
 
       this.popup = new this.Popup(
-        new google.maps.LatLng(-33.866, 151.196),
+        new google.maps.LatLng(27.378349, 87.206579),
         document.getElementById("content")
       );
       this.popup.setMap(this.map);
