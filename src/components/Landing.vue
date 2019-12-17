@@ -1,33 +1,31 @@
+
+
 <script>
-import gmapsInit from '../utils/gmaps';
 export default {
-  name: `App`,
-  async mounted() {
-    try {
-    var lat = 27.37834,
-    lon = 87.206579;
-var uluru = {lat: lat, lng: lon};
-// The map, centered at Uluru
-var map = new google.maps.Map(
-    document.getElementById('map'), {zoom: 20, center: uluru});
-// The marker, positioned at Uluru
-var marker = new google.maps.Marker({position: uluru, map: map});
+  name: 'hello',
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App'
+    }},
+  mounted: function() {
+        console.log("map: ", google.maps)
+            this.map = new google.maps.Map(document.getElementById('myMap'), {
+            center: {lat:61.180059, lng: -149.822075},
+            scrollwheel: false,
+            zoom: 4
+            })
+  }
 
-    } catch (error) {
-      // eslint-disable-next-line no-console
-      console.error(error);
-    }
-  },
-};
+}
 </script>
-
+<style scoped>
+    #myMap {
+    height:300px;
+    width: 100%;
+   }
+</style>
 
 <style>
-
-.App {
-  width: 100vw;
-  height: 100vh;
-}
 
 * {
   box-sizing: border-box;
@@ -173,7 +171,7 @@ text-align: center;
   </div>
 
   <div class="column_2">
-  <div class="App"/>
+  <div id="myMap"></div>
   </div>
 </div>
 
