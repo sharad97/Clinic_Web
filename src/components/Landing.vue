@@ -87,7 +87,7 @@ return Popup;
 
   },
   mounted() {
-   function();
+   this.function();
 
 }
 }
