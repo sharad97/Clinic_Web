@@ -117,6 +117,33 @@ text-align: center;
 }
 
 </style>
+
+
+<script>
+// Initialize and add the map
+function initMap() {
+// The location of Uluru
+var lat = 27.37834,
+    lon = 87.206579;
+var uluru = {lat: lat, lng: lon};
+// The map, centered at Uluru
+var map = new google.maps.Map(
+    document.getElementById('map'), {zoom: 20, center: uluru});
+// The marker, positioned at Uluru
+var marker = new google.maps.Marker({position: uluru, map: map});
+}
+</script>
+
+  <!--Load the API from the specified URL
+  * The async attribute allows the browser to render the page while the API loads
+  * The key parameter will contain your own API key (which is not needed for this tutorial)
+  * The callback parameter executes the initMap() function
+  -->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg&callback=initMap">
+  </script>
+
+
 <template>
 <body>
 
@@ -185,27 +212,3 @@ text-align: center;
 </div>
 </body>
 </template>
-
-<script>
-// Initialize and add the map
-function initMap() {
-// The location of Uluru
-var lat = 27.37834,
-    lon = 87.206579;
-var uluru = {lat: lat, lng: lon};
-// The map, centered at Uluru
-var map = new google.maps.Map(
-    document.getElementById('map'), {zoom: 20, center: uluru});
-// The marker, positioned at Uluru
-var marker = new google.maps.Marker({position: uluru, map: map});
-}
-</script>
-
-  <!--Load the API from the specified URL
-  * The async attribute allows the browser to render the page while the API loads
-  * The key parameter will contain your own API key (which is not needed for this tutorial)
-  * The callback parameter executes the initMap() function
-  -->
-  <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg&callback=initMap">
-  </script>
