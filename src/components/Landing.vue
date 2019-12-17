@@ -12,13 +12,13 @@ export default {
         var lat = 27.37834;
         var lng = 87.206579;
         var uluru = {lat:lat, lng:lng};
-        this.map = new google.maps.Map(document.getElementById('myMap'), {
+        var map = new google.maps.Map(document.getElementById('myMap'), {
             center: uluru,
             scrollwheel: false,
             zoom: 20
             });
 
-        this.marker = new google.maps.Marker({position: uluru, map: map});
+        var marker = new google.maps.Marker({position: uluru, map: map});
 
 
   }
