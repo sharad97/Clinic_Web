@@ -9,9 +9,9 @@ export default {
     }},
   mounted: function() {
         console.log("map: ", google.maps)
-        this.lat = 27.37834;
-        this.lng = 87.206579;
-        this.uluru = {lat:lat, lng:lng};
+        var lat = 27.37834;
+        var lng = 87.206579;
+        var uluru = {lat:lat, lng:lng};
         this.map = new google.maps.Map(document.getElementById('myMap'), {
             center: uluru,
             scrollwheel: false,
