@@ -183,6 +183,8 @@ text-align: center;
         <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/clinic_17.jpg" style="width:100%">
   </div>
 </div>
+</body>
+</template>
 
 <script>
 // Initialize and add the map
@@ -207,5 +209,3 @@ var marker = new google.maps.Marker({position: uluru, map: map});
   <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg&callback=initMap">
   </script>
-</body>
-</template>
