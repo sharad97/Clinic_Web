@@ -7,7 +7,8 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }},
-    methods: function(){
+    methods: {
+    function(){
   var popup, Popup;
 
         console.log("map: ", google.maps)
@@ -25,7 +26,7 @@ popup = new Popup(
     new google.maps.LatLng(lat, lng),
     document.getElementById('content'));
 popup.setMap(map);
-}
+},
 
 function createPopupClass() {
 
@@ -84,7 +85,7 @@ Popup.prototype.draw = function() {
 return Popup;
 
 
-
+}
   },
   mounted() {
    this.function();
