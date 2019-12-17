@@ -103,12 +103,6 @@ table.center {
     margin-left:-15px;
   }
 
-.map-container{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
-}
 
 #map {
   height: 100%;
@@ -152,9 +146,7 @@ text-align: center;
   </div>
 
   <div class="column_2">
-    <div class="map-container">
     <div id="map"></div>
-    </div>
   </div>
 </div>
 
