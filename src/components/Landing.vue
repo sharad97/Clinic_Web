@@ -1,84 +1,30 @@
-<script>
-import gmapsInit from '../utils/gmaps';
-const locations = [
-  {
-    position: {
-      lat: 48.160910,
-      lng: 16.383330,
-    },
-  },
-  {
-    position: {
-      lat: 48.174270,
-      lng: 16.329620,
-    },
-  },
-  {
-    position: {
-      lat: 48.146140,
-      lng: 16.297030,
-    },
-  },
-  {
-    position: {
-      lat: 48.135830,
-      lng: 16.194460,
-    },
-  },
-  {
-    position: {
-      lat: 48.306091,
-      lng: 14.286440,
-    },
-  },
-  {
-    position: {
-      lat: 47.503040,
-      lng: 9.747070,
-    },
-  },
-];
-export default {
-  name: `App`,
-  async mounted() {
-    try {
-      const google = await gmapsInit();
-      const geocoder = new google.maps.Geocoder();
-      const map = new google.maps.Map(this.$el);
-      geocoder.geocode({ address: `Austria` }, (results, status) => {
-        if (status !== `OK` || !results[0]) {
-          throw new Error(status);
-        }
-        map.setCenter(results[0].geometry.location);
-        map.fitBounds(results[0].geometry.viewport);
-      });
-      const markerClickHandler = (marker) => {
-        map.setZoom(13);
-        map.setCenter(marker.getPosition());
-      };
-      const markers = locations
-        .map((location) => {
-          const marker = new google.maps.Marker({ ...location, map });
-          marker.addListener(`click`, () => markerClickHandler(marker));
-          return marker;
-        });
-
-    } catch (error) {
-      // eslint-disable-next-line no-console
-      console.error(error);
-    }
-  },
-};
-</script>
+function initMap() {
+  // The location of Uluru
+  var lat = 27.37834,
+      lon = 87.206579;
+  var uluru = {lat: lat, lng: lon};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 20, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg&callback=initMap">
+    </script>
 
 
 <style>
 
-.App {
-  width: 100vw;
-  height: 100vh;
-}
-
+#map {
+        height: 100%;
+      }
 * {
   box-sizing: border-box;
 }
@@ -223,7 +169,7 @@ text-align: center;
   </div>
 
   <div class="column_2">
-  <div class="App"/>
+  <div id="map"></div>
   </div>
 </div>
 
