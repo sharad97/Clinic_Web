@@ -1,11 +1,13 @@
 <style>
-html { height: 100% }
-body { height: 100%; margin: 0; padding: 0 }
 
 * {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: Arial;
+}
 
 .header {
   text-align: center;
@@ -101,7 +103,16 @@ table.center {
     margin-left:-15px;
   }
 
-#map-canvas { height: 100% }
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+#map {
+  height: 100%;
+}
 
 .call {
 text-align: center;
@@ -141,61 +152,9 @@ text-align: center;
   </div>
 
   <div class="column_2">
-  <div id="map-canvas"></div>
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script>
-  function getLocation() {
-      if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(initialize, showError);
-      }
-      else {
-          alert("Geolocation is not supported by this browser.");
-      }
-  }
-
-  function initialize(position) {
-      // If you don't use 'var' before a variable, it will be accessible globally,
-      // which makes it easier (bad) to overwrite/clobber if you reuse these names elsewhere
-      var lat = position.coords.latitude,
-          lon = position.coords.longitude;
-
-      var mapOptions = {
-          center: new google.maps.LatLng(lat, lon),
-          zoom: 14,
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
-          mapTypeControl: true
-      }
-
-      var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-      var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(lat, lon),
-          map: map,
-          title: "Current Location"
-      });
-  }
-
-  function showError(error) {
-      switch (error.code) {
-          case error.PERMISSION_DENIED:
-              alert("User denied the request for Geolocation.");
-              break;
-          case error.POSITION_UNAVAILABLE:
-              alert("Location information is unavailable.");
-              break;
-          case error.TIMEOUT:
-              alert("The request to get user location timed out.");
-              break;
-          case error.UNKNOWN_ERROR:
-              alert("An unkown error occurred.");
-              break;
-      }
-  }
-
-  // When the page has loaded, call the getLocation function
-  // Be sure not to use parenthesis after getLocation, or you will
-  // call it, instead of passing a reference to it to be called later (callback)
-  google.maps.event.addDomListener(window, 'load', getLocation);
-</script>
+    <div class="map-container">
+    <div id="map"></div>
+    </div>
   </div>
 </div>
 
@@ -232,5 +191,30 @@ text-align: center;
         <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/clinic_17.jpg" style="width:100%">
   </div>
 </div>
+
+<script>
+    function initialize() {
+        // If you don't use 'var' before a variable, it will be accessible globally,
+        // which makes it easier (bad) to overwrite/clobber if you reuse these names elsewhere
+        var lat = 27.37834,
+            lon = 87.206579;
+
+        var mapOptions = {
+            center: new google.maps.LatLng(lat, lon),
+            zoom: 20,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            mapTypeControl: true
+        }
+
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(lat, lon),
+            map: map,
+            title: "Current Location"
+        });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg&callback=initialize"
+  async defer></script>
 </body>
 </template>
