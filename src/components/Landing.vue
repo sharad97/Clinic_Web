@@ -1,9 +1,11 @@
-
-<script>
-export default {
+<script lang="ts">
+import Vue from "vue";
+declare var google: any
+export default Vue.extend({
   name: 'google-map',
   props: ['name'],
   data: function () {
+    let markerArray:any[] = [];
     return {
       mapName: this.name + "-map",
       markerCoordinates: [{
@@ -18,7 +20,7 @@ export default {
       }],
       map: null,
       bounds: null,
-      markers: []
+      markers: markerArray
     }
   },
   mounted: function () {
@@ -35,20 +37,20 @@ export default {
         position,
         map: this.map
       });
-    this.markers.push(marker)
+      this.markers.push(marker)
       this.map.fitBounds(this.bounds.extend(position))
     });
   }
-};
+});
 </script>
 
 <style scoped>
-.google-map {
-  width: 800px;
-  height: 600px;
-  margin: 0 auto;
-  background: gray;
-}
+  .google-map {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background: gray;
+  }
 </style>
 
 <style>
@@ -198,7 +200,7 @@ text-align: center;
   </div>
 
   <div class="column_2">
-    <div class="google-map" :id="mapName"></div>
+  <div class="google-map" :id="mapName"></div>
   </div>
 </div>
 
