@@ -223,7 +223,7 @@ text-align: center;
   </div>
 
   <div class="column_2">
-  <div class="google-map" :id="mapName"></div>
+  <div class="App"/>
   </div>
 </div>
 
