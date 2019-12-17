@@ -1,31 +1,34 @@
 <script>
-function initMap() {
-  // The location of Uluru
-  var lat = 27.37834,
-      lon = 87.206579;
-  var uluru = {lat: lat, lng: lon};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 20, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-    </script>
-    <!--Load the API from the specified URL
-    * The async attribute allows the browser to render the page while the API loads
-    * The key parameter will contain your own API key (which is not needed for this tutorial)
-    * The callback parameter executes the initMap() function
-    -->
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKtVdM9lqOznPQqEs82kQJanJEga1NhTg&callback=initMap">
-    </script>
+import gmapsInit from '../utils/gmaps';
+export default {
+  name: `App`,
+  async mounted() {
+    try {
+    var lat = 27.37834,
+    lon = 87.206579;
+var uluru = {lat: lat, lng: lon};
+// The map, centered at Uluru
+var map = new google.maps.Map(
+    document.getElementById('map'), {zoom: 20, center: uluru});
+// The marker, positioned at Uluru
+var marker = new google.maps.Marker({position: uluru, map: map});
+
+    } catch (error) {
+      // eslint-disable-next-line no-console
+      console.error(error);
+    }
+  },
+};
+</script>
 
 
 <style>
 
-#map {
-        height: 100%;
-      }
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -170,7 +173,7 @@ text-align: center;
   </div>
 
   <div class="column_2">
-  <div id="map"></div>
+  <div class="App"/>
   </div>
 </div>
 
