@@ -282,18 +282,14 @@ text-align: center;
 text-align: center;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
-}
+
 
 #myCarousel{
-margin: auto;
-width: 100%;
+  margin: auto;
+  width: 100%;
 }
 
 .contacts{
-
 padding-top: 10px;
 }
 
@@ -321,11 +317,11 @@ padding-top: 10px;
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/slide_1.jpg" alt="slide_1" class="responsive" style="width:100%; height:500px;">
+        <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/slide_1.jpg" alt="slide_1" style="width:100%; height:auto;">
       </div>
 
       <div class="item">
-        <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/slide_2.jpg" alt="slide_2" class="responsive" style="width:100%; height:500px;">
+        <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/slide_2.jpg" alt="slide_2" style="width:100%; height:auto;">
       </div>
     </div>
 
