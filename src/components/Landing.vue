@@ -293,6 +293,8 @@ text-align: center;
 <div class="header">
   <h1>Tejratna Eye and Ear Care Centre</h1>
 </div>
+
+
 <div class="row_3">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -329,6 +331,7 @@ text-align: center;
   </div>
 </div>
 
+
 <div class="row_2">
   <div class="column_2">
     <div class="call">
@@ -354,7 +357,7 @@ text-align: center;
     <div id="map"></div>
     <div id="content">
       Tejratna Eye and Ear Care Centre
-      </div>
+    </div>
    </div>
 </div>
 
