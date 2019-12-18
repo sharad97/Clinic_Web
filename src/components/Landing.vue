@@ -287,6 +287,16 @@ text-align: center;
   height: auto;
 }
 
+#myCarousel{
+margin: auto;
+width: 100%;
+}
+
+.contacts{
+
+padding-top: 10px;
+}
+
 </style>
 
 
@@ -334,6 +344,7 @@ text-align: center;
 
 <div class="row_2">
   <div class="column_2">
+  <div class="contacts">
     <div class="call">
       <p><i class="fa fa-calendar" style="font-size:20px;color:green"></i> MAKE AN APPOINTMENT</p>
       <p>Schedule your visit by dialing our office</p>
@@ -351,6 +362,7 @@ text-align: center;
     <tr><th>Friday:</th><td>9am - 5pm</td></tr>
     <tr><th>Saturday:</th><td>Closed</td></tr>
     </table>
+  </div>
   </div>
 
   <div class="column_2">
