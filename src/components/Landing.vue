@@ -120,6 +120,23 @@ body {
   font-family: Arial;
 }
 
+@media screen and (max-width: 800px) {
+body {
+  margin: 0;
+  padding-right:25px;
+  padding-left: 25px;
+  font-family: Arial;
+}
+}
+@media screen and (max-width: 600px) {
+body {
+  margin: 0;
+  padding-right:0px;
+  padding-left: 0px;
+  font-family: Arial;
+}
+}
+
 /* The location pointed to by the popup tip. */
 .popup-tip-anchor {
   height: 0;
@@ -208,23 +225,6 @@ body {
   }
 }
 
-@media screen and (max-width: 800px) {
-body {
-  margin: 0;
-  padding-right:25px;
-  padding-left: 25px;
-  font-family: Arial;
-}
-}
-@media screen and (max-width: 600px) {
-body {
-  margin: 0;
-  padding-right:0px;
-  padding-left: 0px;
-  font-family: Arial;
-}
-}
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column_1 {
@@ -303,7 +303,7 @@ text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 .contacts{
@@ -316,7 +316,7 @@ margin-left: auto;
 margin-right: auto;
 height:auto;
 max-height: 500px;
-max-width: 100%;
+width: 100%;
 }
 
 </style>
