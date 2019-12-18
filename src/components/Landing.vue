@@ -284,9 +284,7 @@ text-align: center;
 
 #myCarousel{
   margin: auto;
-  width: 100%;
-  display: inline-block;
-  position: relative;
+  width: 100%;  
 }
 
 .contacts{
