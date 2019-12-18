@@ -255,6 +255,14 @@ body {
   }
 }
 
+.row_3 {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
 th {
   text-align: right;
 }
@@ -285,7 +293,7 @@ text-align: center;
 <div class="header">
   <h1>Tejratna Eye and Ear Care Centre</h1>
 </div>
-<div>
+<div class="row_3">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
