@@ -115,6 +115,8 @@ width: 100%;
 
 body {
   margin: 0;
+  padding-right:50px;
+  padding-left: 50px;
   font-family: Arial;
 }
 
@@ -281,7 +283,8 @@ text-align: center;
 }
 
 #myCarousel{
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
 }
 
