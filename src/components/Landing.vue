@@ -285,7 +285,8 @@ text-align: center;
 <div class="header">
   <h1>Tejratna Eye and Ear Care Centre</h1>
 </div>
-<div>
+
+<div class="row_2">
 <div class="container">
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -328,6 +329,7 @@ text-align: center;
   <div class="column_2">
     <div class="call">
       <p><i class="fa fa-calendar" style="font-size:20px;color:green"></i> MAKE AN APPOINTMENT</p>
+      <p>Schedule your visit by dialing our office</p>
       <p><i class="fa fa-phone" style="font-size:20px;color:green"></i> +977-985-2060177</p>
     </div>
     <div class="hours">
