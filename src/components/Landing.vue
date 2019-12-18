@@ -281,6 +281,10 @@ text-align: center;
 .hours {
 text-align: center;
 }
+#myCarousel{
+text-align: center;
+
+}
 
 </style>
 
