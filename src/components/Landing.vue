@@ -281,8 +281,8 @@ text-align: center;
 .hours {
 text-align: center;
 }
+
 #myCarousel{
-margin: auto;
 width: 100%;
 }
 
