@@ -282,7 +282,10 @@ text-align: center;
 text-align: center;
 }
 
-
+#myCarousel{
+  margin: auto;
+  max-width: 100%;
+}
 
 .contacts{
 padding-top: 10px;
