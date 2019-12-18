@@ -187,9 +187,9 @@ body {
 
 /* Create four equal columns that sits next to each other */
 .column_1 {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
   padding: 0 4px;
 }
 
@@ -256,10 +256,8 @@ body {
 }
 
 .column_3 {
-  -ms-flex: 50%;
-  flex: 50%;
-  max-width: 50%;
 }
+
 .row_3 {
   display: -ms-flexbox; /* IE10 */
   display: flex;
