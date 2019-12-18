@@ -310,11 +310,11 @@ width: 100%;
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/slide_1.jpg" alt="slide_1" style="width:100%; height:500px;">
+        <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/slide_1.jpg" alt="slide_1" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/slide_2.jpg" alt="slide_2" style="width:100%; height:500px;">
+        <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/slide_2.jpg" alt="slide_2" style="width:100%;">
       </div>
     </div>
 
