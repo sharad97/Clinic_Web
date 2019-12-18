@@ -282,11 +282,7 @@ text-align: center;
 text-align: center;
 }
 
-#myCarousel{
-  margin: auto;
-  width: 100%;
-  overflow: hidden;
-}
+
 
 .contacts{
 padding-top: 10px;
