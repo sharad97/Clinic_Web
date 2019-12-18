@@ -305,21 +305,16 @@ width: 100%;
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="https://www.quanzhanketang.com/bootstrap/la.jpg" alt="Los Angeles" style="width:100%; height:400px;">
+        <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/slide_1.jpg" alt="slide_1" style="width:100%; height:400px;">
       </div>
 
       <div class="item">
-        <img src="https://www.quanzhanketang.com/bootstrap/chicago.jpg" alt="Chicago" style="width:100%; height:400px;">
-      </div>
-
-      <div class="item">
-        <img src="https://www.quanzhanketang.com/bootstrap/ny.jpg" alt="New york" style="width:100%; height:400px;">
+        <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/slide_2.jpg" alt="slide_2" style="width:100%; height:400px;">
       </div>
     </div>
 
