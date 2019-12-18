@@ -170,8 +170,6 @@ body {
   box-sizing: border-box;
 }
 
-
-
 .header {
   text-align: center;
   padding: 32px;
@@ -253,9 +251,6 @@ body {
     flex: 100%;
     max-width: 100%;
   }
-}
-
-.column_3 {
 }
 
 .row_3 {
