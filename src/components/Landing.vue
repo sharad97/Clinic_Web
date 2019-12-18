@@ -286,7 +286,6 @@ text-align: center;
   <h1>Tejratna Eye and Ear Care Centre</h1>
 </div>
 <div>
-  <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
