@@ -208,6 +208,23 @@ body {
   }
 }
 
+@media screen and (max-width: 800px) {
+body {
+  margin: 0;
+  padding-right:25px;
+  padding-left: 25px;
+  font-family: Arial;
+}
+}
+@media screen and (max-width: 600px) {
+body {
+  margin: 0;
+  padding-right:0px;
+  padding-left: 0px;
+  font-family: Arial;
+}
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column_1 {
