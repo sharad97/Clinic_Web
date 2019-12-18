@@ -368,7 +368,7 @@ width: 100%;
 
 <!-- Photo Grid -->
 <div class="row_1">
-  <div class="column1">
+  <div class="column_1">
     <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/clinic_1.jpg" style="width:100%">
       <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/clinic_2.jpg" style="width:100%">
         <img src="https://12webimage.s3-us-west-1.amazonaws.com/clinic_web/clinic_3.jpg" style="width:100%">
