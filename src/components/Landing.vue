@@ -204,9 +204,9 @@ body {
 
 /* Create four equal columns that sits next to each other */
 .column_1 {
-  -ms-flex: 33%; /* IE10 */
-  flex: 33%;
-  max-width: 33%;
+  -ms-flex: 33.3333333%; /* IE10 */
+  flex: 33.3333333%;
+  max-width: 33.3333333%;
   padding: 0 4px;
 }
 
