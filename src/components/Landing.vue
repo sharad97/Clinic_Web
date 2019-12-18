@@ -282,8 +282,8 @@ text-align: center;
 text-align: center;
 }
 #myCarousel{
-text-align: center;
-
+margin: auto;
+width: 100%;
 }
 
 </style>
