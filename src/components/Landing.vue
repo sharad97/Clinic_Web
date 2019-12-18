@@ -315,7 +315,6 @@ max-width: 100%;
 
 
 <div class="row_3">
-<div class="column_3">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -344,7 +343,6 @@ max-width: 100%;
       <span class="sr-only">Next</span>
     </a>
   </div>
-</div>
 </div>
 
 <div class="row_2">
