@@ -115,7 +115,6 @@ width: 100%;
 
 body {
   margin: 0;
-  max-width=960px;
   font-family: Arial;
 }
 
@@ -256,6 +255,11 @@ body {
   }
 }
 
+.column_3 {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+}
 .row_3 {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -315,6 +319,7 @@ max-width: 100%;
 
 
 <div class="row_3">
+<div class="column_3">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -344,7 +349,7 @@ max-width: 100%;
     </a>
   </div>
 </div>
-
+</div>
 
 <div class="row_2">
   <div class="column_2">
