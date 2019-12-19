@@ -120,6 +120,7 @@ body {
   font-family: Arial;
 }
 
+/*
 @media screen and (max-width: 800px) {
 body {
   margin: 0;
@@ -136,6 +137,7 @@ body {
   font-family: Arial;
 }
 }
+*/
 
 /* The location pointed to by the popup tip. */
 .popup-tip-anchor {
@@ -303,7 +305,7 @@ text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  max-weight: 1300px;
 }
 
 .contacts{
