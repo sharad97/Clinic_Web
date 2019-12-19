@@ -137,16 +137,6 @@ body {
 }
 */
 
-
-@media screen and (min-width: 1300px) {
-body {
-  margin: 0;
-  padding-right:20px;
-  padding-left: 20px;
-  font-family: Arial;
-}
-}
-
 /* The location pointed to by the popup tip. */
 .popup-tip-anchor {
   height: 0;
@@ -210,6 +200,7 @@ body {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  max-width: 1300px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -250,6 +241,7 @@ body {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  max-width: 1300px;
 }
 
 .column_2 {
@@ -288,6 +280,7 @@ body {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  max-width: 1300px;
 }
 
 th {
