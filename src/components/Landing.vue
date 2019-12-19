@@ -324,7 +324,7 @@ h1 {
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 200%;
   font-weight:bold;
-  color: darkblue;
+  color: RGB(34, 120, 207);
 }
 </style>
 
