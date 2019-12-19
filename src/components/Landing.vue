@@ -137,6 +137,16 @@ body {
 }
 */
 
+
+@media screen and (min-width: 1300px) {
+body {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+}
+}
+
 /* The location pointed to by the popup tip. */
 .popup-tip-anchor {
   height: 0;
