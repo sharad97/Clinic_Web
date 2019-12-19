@@ -303,7 +303,7 @@ text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-weight: 1300px;
+  max-width: 1300px;
 }
 
 .contacts{
