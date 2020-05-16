@@ -4,13 +4,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 const routerOptions = [
-  { path: '/', component: 'Landing' },
-  { path: '/Blog', name: 'feed', component: 'Blog' },
-  { path: '/by/:author', name: 'author', props: true, component: 'Blog' },
-  { path: '/read/:post', name: 'post', props: true, component: 'Blog' },
-  { path: '/Portfolio', name: 'feeds', component: 'Portfolio' },
-  { path: '/portfolio/by/:author', name: 'authors', props: true, component: 'Portfolio' },
-  { path: '/portfolio/read/:post', name: 'posts', props: true, component: 'Portfolio' }
+  { path: '/', component: 'Landing' }
 ]
 
 const routes = routerOptions.map(route => {
