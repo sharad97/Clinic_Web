@@ -113,11 +113,6 @@
         sidebar: false,
         menuItems: [
           {
-            action: 'fa fa-keyboard-o',
-            title: 'Blog',
-            path: '/Blog'
-          },
-          {
             action: 'fa-facebook-square',
             title: 'Facebook',
             link: 'https://www.facebook.com/Tejratna384/'
